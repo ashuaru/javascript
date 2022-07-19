@@ -10,29 +10,29 @@ if (computerplay < 0.34) {
 
 var compare = function(userplay, computerplay) {
     if(userplay === computerplay) {
-    return "The result is a tie!";
+    console.log("The result is a tie!");
 }
 if(userplay === "rock") {
     if(computerplay === "scissors") {
-        return "rock wins";
+        console.log("rock wins");
     } else {
-        return "paper wins";
+        console.log("paper wins");
     }
 }
 if(userplay === "paper") {
     if(computerplay === "rock") {
-        return "paper wins";
+        console.log("paper wins");
     } else {
         if(computerplay === "scissors") {
-            return "scissors wins";
+            console.log("scissors wins");
     }
 }
 if(userplay === "scissors") {
     if(computerplay === "rock") {
-        return "rock wins";
+        console.log("rock wins");
     } else {
         if(computerplay === "paper") {
-            return "scissors wins";
+            console.log("scissors wins");
         }
     }
 }
